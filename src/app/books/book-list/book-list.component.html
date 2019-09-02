@@ -1,0 +1,4 @@
+<p *ngFor="let np of newspapers"> {{ np.name }} </p>
+<p *ngFor="let book of books"> 
+    <app-book [model] = 'book'></app-book>
+</p>
